@@ -1,0 +1,39 @@
+﻿@section styles{
+    @Styles.Render("~/Content/css/Menu")
+}
+
+<div class="notificacion" id="alertSucess2">
+    <div class="alert" id="alertSucess">
+        
+    </div>
+</div>
+
+
+<input type="hidden" id="idPersonaSeleccionada"/>
+
+<div class="row">
+    <div class=" col-sm-6 logo">
+        <img src="@Url.Content("~/Resource/IMG/Logo.png")" width="400px" height="100px" alt="imgf" id="imagenLogo" />
+    </div>
+
+    <div class="conjunto-botones">
+        <button id="botonCrear" type="button" class="btn btn-success"> <span class="glyphicon glyphicon-plus"></span> Crear Empleado</button>
+
+        <button id="botonModificar" type="button" class="btn btn-info"> <span class="glyphicon glyphicon-pencil"></span> Modificar</button>
+
+        <button id="botonEliminar" type="button" class="btn btn-danger"> <span class="glyphicon glyphicon-trash"></span> Eliminar</button>
+    </div>
+
+</div>
+
+<table id="example" class="display table table-bordered table-hover"></table>
+
+<div id="modal" class="modal fade" role="dialog">
+
+</div>
+
+
+@section scripts{
+
+    @Scripts.Render("~/bundles/MenuCatalogo")
+}

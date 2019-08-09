@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "ModalModificar";
+    Layout = "~/Views/Shared/_LayoutModals.cshtml";
+}
+
+@section headModal {
+    <h3 class="modal-title">  Modificar Empleado </h3>
+}
+
+@section bodyModal{
+    <input type="hidden" id="idPersona"/>
+    <div class="form-group">
+        <label for="text">Nombre:</label>
+        <input type="email" class="form-control input-entrada" id="nombrePersona">
+    </div>
+    <div class="form-group">
+        <label for="text">Apellido:</label>
+        <input type="text" class="form-control input-entrada" id="apellidoPersona">
+    </div>
+    <div class="form-group">
+        <label>Edad:</label>
+        <input type="text" class="form-control input-entrada" id="edad">
+    </div>
+    <div class="form-group">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" class="form-control input-entrada" id="email">
+    </div>
+    <div class="form-group">
+        <label>Teléfono:</label>
+        <input type="text" class="form-control input-entrada" id="telefono">
+    </div>
+    <div class="form-group">
+        <label>Fecha Nacimiento:</label>
+        <input type="date" class="form-control input-entrada" id="fechaNacimiento">
+    </div>
+    <div class="form-group">
+        <label>Ciudad:</label>
+        <input type="text" class="form-control input-entrada" id="ciudad">
+    </div>
+}
+
+
+@section footerModal{
+    <button type="button" class="btn btn-info" id="botonConfirmarModificar">Modificar</button>
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+}

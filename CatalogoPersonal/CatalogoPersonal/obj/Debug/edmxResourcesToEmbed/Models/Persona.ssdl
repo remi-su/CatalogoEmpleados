@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PruebaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Persona">
+    <Key>
+      <PropertyRef Name="idPersona" />
+    </Key>
+    <Property Name="idPersona" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombrePersona" Type="nchar" MaxLength="50" />
+    <Property Name="apellidoPersona" Type="nchar" MaxLength="50" />
+    <Property Name="edad" Type="int" />
+    <Property Name="email" Type="nchar" MaxLength="50" />
+    <Property Name="telefono" Type="int" />
+    <Property Name="fechaNacimiento" Type="date" />
+    <Property Name="ciudad" Type="char" MaxLength="30" />
+  </EntityType>
+  <EntityContainer Name="PruebaModelStoreContainer">
+    <EntitySet Name="Persona" EntityType="Self.Persona" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoPersonal", "CatalogoPersonal\CatalogoPersonal.csproj", "{92DC94D4-C4B5-456D-9027-9F4F1092D78E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92DC94D4-C4B5-456D-9027-9F4F1092D78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DC94D4-C4B5-456D-9027-9F4F1092D78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DC94D4-C4B5-456D-9027-9F4F1092D78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DC94D4-C4B5-456D-9027-9F4F1092D78E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94651545-F2AD-4FFC-8BF1-2486C14B3283}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/samuelake
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CatalogoPersonal\\CatalogoPersonal.csproj
+		SccProjectName1 = CatalogoPersonal
+		SccLocalPath1 = CatalogoPersonal
+	EndGlobalSection
+EndGlobal
